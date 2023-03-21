@@ -1,0 +1,20 @@
+.drawer-container {
+    height: calc(100% - 64px);
+}
+
+.mat-drawer {
+    width: 150px;
+}
+
+.list-item-content{
+    display: flex;
+}
+
+.mat-list-item:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+mat-icon {
+    margin-right: 5px;
+}
