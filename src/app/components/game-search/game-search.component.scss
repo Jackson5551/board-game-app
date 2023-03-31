@@ -1,0 +1,19 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        // height: fit-content;
+        height: 52px;
+        margin-left: 5px;
+    }
+
+    mat-form-field {
+        width: 50%;
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
