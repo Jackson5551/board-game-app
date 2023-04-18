@@ -48,5 +48,7 @@
                 </div>
             </div>
         </div>
+        <app-game-detail-controls [game]="game" [ownedGames]="ownedGames" [wishListGames]="wishListGames"
+            (changedGameStatus)="setGameList($event)"></app-game-detail-controls>
     </div>
 </div>
